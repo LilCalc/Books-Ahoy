@@ -10,3 +10,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+<Router basename={process.env.PUBLIC_URL}></Router>
