@@ -10,7 +10,7 @@ const {authMiddleware} = require('./utils/auth');
 const db = require('./config/connection');
 
 // const routes = require('./routes');
-
+const uri = process.env.MONGODB_URI;
 //express server
 const app = express();
 const PORT = process.env.PORT || 3001;
